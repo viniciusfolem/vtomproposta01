@@ -307,10 +307,180 @@ section {
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
-    .hero h1 { font-size: 3.5rem; }
-    .hero .subtitle { font-size: 1.2rem; }
-    .comparison-grid, .features-grid, .proof-list { grid-template-columns: 1fr; }
-    .section-title { font-size: 2rem; }
-    .investment-box { padding: 30px; }
-    .price-tag { font-size: 3rem; }
+    .container {
+        padding: 0 15px;
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    .hero {
+        height: auto;
+        min-height: 100vh;
+        padding: 100px 0 60px;
+    }
+
+    .hero h5 {
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+    }
+
+    .hero h1 {
+        font-size: 3.5rem;
+        line-height: 1.1;
+    }
+
+    .hero .subtitle {
+        font-size: 1.3rem;
+        margin-bottom: 30px;
+    }
+
+    .btn-primary {
+        padding: 12px 30px;
+        font-size: 0.9rem;
+    }
+
+    section {
+        padding: 50px 0;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+        margin-bottom: 40px;
+    }
+
+    .comparison-grid,
+    .features-grid,
+    .proof-list {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .card {
+        padding: 25px;
+    }
+
+    .card h3 {
+        font-size: 1.3rem;
+    }
+
+    .stat .value {
+        font-size: 1.3rem;
+    }
+
+    .math-block {
+        padding: 25px;
+    }
+
+    .math-block h4 {
+        font-size: 1.3rem;
+    }
+
+    .math-block p {
+        font-size: 1rem;
+    }
+
+    .loss-highlight {
+        font-size: 1.2rem !important;
+    }
+
+    .investment-box {
+        padding: 30px 20px;
+    }
+
+    .price-tag {
+        font-size: 3rem;
+    }
+
+    .roi-projection {
+        padding: 20px;
+    }
+
+    .bar {
+        height: 35px;
+        font-size: 0.9rem;
+    }
+
+    .cta-final {
+        padding: 60px 0;
+    }
+
+    .cta-final h2 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+
+    .cta-final h3 {
+        font-size: 1.4rem;
+        margin-bottom: 40px;
+        line-height: 1.4;
+    }
+
+    .btn-whatsapp {
+        padding: 15px 35px;
+        font-size: 1.2rem;
+    }
+
+    .signature {
+        margin-top: 40px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+    .hero h5 {
+        font-size: 0.7rem;
+        letter-spacing: 1.5px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero .subtitle {
+        font-size: 1.1rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    .price-tag {
+        font-size: 2.5rem;
+    }
+
+    .cta-final h2 {
+        font-size: 1.5rem;
+    }
+
+    .cta-final h3 {
+        font-size: 1.2rem;
+    }
+
+    .btn-whatsapp {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+}
+
+/* Tablet Landscape */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hero h1 {
+        font-size: 5rem;
+    }
+
+    .hero .subtitle {
+        font-size: 1.8rem;
+    }
+
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
